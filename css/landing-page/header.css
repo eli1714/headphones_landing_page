@@ -1,0 +1,117 @@
+header {
+  padding: 30px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header a {
+  color: #4c44c1;
+  text-decoration: none;
+}
+header a:hover {
+  color: #fea83b;
+  transition: 0.3s ease-in-out;
+}
+header .logo {
+  float: left;
+  margin-right: 28px;
+}
+header .logo img {
+  width: 40px;
+}
+header .menu {
+  float: left;
+  position: relative;
+  top: 19px;
+}
+header .menu a {
+  text-transform: uppercase;
+  margin-right: 35px;
+}
+header .menu a:last-child {
+  margin-right: 0px;
+}
+header .header-buttons {
+  float: right;
+}
+header .header-buttons .blue-btn {
+  background: #6066f2;
+  padding: 14px 46px;
+  color: white;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 19px;
+  margin-right: 18px;
+  outline: none;
+}
+header .header-buttons .blue-btn:hover {
+  background: #1218d9;
+  transition: 0.3s ease-in-out;
+}
+header .header-buttons .blue-btn .fas {
+  margin-left: 15px;
+}
+header .header-buttons .orange-btn {
+  background: #fea83b;
+  padding: 14px 46px;
+  color: white;
+  border-radius: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  top: 19px;
+  outline: none;
+}
+header .header-buttons .orange-btn:hover {
+  background: #d07601;
+  transition: 0.3s ease-in-out;
+}
+header .mobile-button {
+  display: none;
+  color: #4c44c1;
+  cursor: pointer;
+}
+
+/* DESKTOP */
+@media only screen and (max-width: 1438px) {
+  header .container-fluid {
+    padding: 0;
+  }
+}
+/* LAPTOPS */
+@media only screen and (max-width: 1215px) {
+}
+/* TABLETS */
+@media only screen and (max-width: 1023px) {
+  header .container-fluid .menu,
+  header .container-fluid .header-buttons {
+    display: none;
+  }
+  header .mobile-button {
+    display: inline-block;
+    float: right;
+    font-size: 2rem;
+    position: relative;
+    top: 6px;
+  }
+}
+/* MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+  header .container-fluid .menu,
+  header .container-fluid .header-buttons {
+    display: none;
+  }
+  header .mobile-button {
+    display: inline-block;
+    float: right;
+    font-size: 2rem;
+    position: relative;
+    top: 6px;
+  }
+}

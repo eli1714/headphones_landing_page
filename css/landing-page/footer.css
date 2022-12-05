@@ -1,0 +1,65 @@
+footer {
+  background: #6066f2;
+  padding: 80px 0;
+  text-align: center;
+  color: #ffffff;
+}
+footer h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+footer h2 span {
+  font-weight: 700;
+  color: #fea83b;
+}
+
+footer .menu {
+  margin-bottom: 20px;
+}
+footer .menu li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+footer .menu li a {
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+footer .menu li a:hover,
+footer .social-media li a:hover {
+  color: #fea83b;
+  transition: 0.3s ease-in-out;
+}
+
+footer p {
+  font-size: 0.8rem;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+footer .social-media li {
+  display: inline-block;
+  padding: 0 15px;
+}
+footer .social-media li a {
+  color: #e6cdf9;
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+/* LAPTOPS */
+@media only screen and (max-width: 1215px) {
+}
+/* TABLETS */
+@media only screen and (max-width: 1023px) {
+}
+/* MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+  footer h2 {
+    font-size: 2.5rem;
+  }
+}
